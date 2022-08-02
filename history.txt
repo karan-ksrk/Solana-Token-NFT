@@ -1,0 +1,39 @@
+
+  433  solana config set --url devnet
+  444  solana airdrop 1
+  451  spl-token create-token
+  452  spl-token create-account A46r1JFzJJkSPYNA9bkuWC2EsxnZ4SExyya4Kvn9QMVK
+  454  spl-token supply A46r1JFzJJkSPYNA9bkuWC2EsxnZ4SExyya4Kvn9QMVK
+  456  spl-token mint A46r1JFzJJkSPYNA9bkuWC2EsxnZ4SExyya4Kvn9QMVK 100
+  457  spl-token supply A46r1JFzJJkSPYNA9bkuWC2EsxnZ4SExyya4Kvn9QMVK
+  459  spl-token accounts
+  461  spl-token transfer --fund-recipient A46r1JFzJJkSPYNA9bkuWC2EsxnZ4SExyya4Kvn9QMVK 10 8dxFPfYKBiWNMGJsTBQEVrE9H3TLyfeefKj6NZXw5pfD
+  462  solana balance
+  463  solana balance 8dxFPfYKBiWNMGJsTBQEVrE9H3TLyfeefKj6NZXw5pfD
+  464  spl-token accounts
+  466  spl-token burn HKrTjgi47DgripkB3hgMWsMyUHEH9ufau45M9VZ7CJY2 10
+  468  spl-token accounts
+
+  --------------- NFT Token ---------------
+  469  spl-token create-token --decimals 0
+  470  spl-token create-account CxErbb3SU64kLy47BEgqnnWqpkXvGK5RbG46LrGoJvrB 
+  473  spl-token mint CxErbb3SU64kLy47BEgqnnWqpkXvGK5RbG46LrGoJvrB 1
+  474  spl-token authorize CxErbb3SU64kLy47BEgqnnWqpkXvGK5RbG46LrGoJvrB mint --disable
+  475  spl-token mint CxErbb3SU64kLy47BEgqnnWqpkXvGK5RbG46LrGoJvrB 1
+  476  spl-token transfer --fund-recipient CxErbb3SU64kLy47BEgqnnWqpkXvGK5RbG46LrGoJvrB 1 8dxFPfYKBiWNMGJsTBQEVrE9H3TLyfeefKj6NZXw5pfD
+  477  spl-token accounts
+  479  spl-token wrap 1
+  480  spl-token accounts -v
+  481  spl-token accounts
+  482  spl-token unwrap Cte5VSpdyGRkHkzQFbJBzpnhXPvwBKmLFiNBWsz8mf66
+  483  spl-token wrap 1
+  484  solana address
+  485  solana airdrop 1
+  486  spl-token wrap 1
+  487  spl-token accounts
+  488  spl-token accounts -v
+  489  spl-token unwrap Cte5VSpdyGRkHkzQFbJBzpnhXPvwBKmLFiNBWsz8mf66
+  490  spl-token accounts -v
+  491  spl-token wrap 1
+  492  spl-token accounts -v
+  493  spl-token transfer --fund-recipient So11111111111111111111111111111111111111112 0.5 8dxFPfYKBiWNMGJsTBQEVrE9H3TLyfeefKj6NZXw5pfD
